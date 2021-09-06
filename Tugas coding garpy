@@ -1,0 +1,10 @@
+def suhu (y) :
+	rea  = y * 4/5
+	fah = (y * 9/5)+32
+	kel = y + 273
+	print ('suhu dalam reamur: ', rea)
+	print ('suhu dalam fahrenheit: ', fah)
+	print ('suhu dalam kelvin: ', kel)
+	
+x = int (input ('masukan suhu dalam celcius: '))
+suhu (x)
